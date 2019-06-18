@@ -7,5 +7,6 @@ public interface TimeEntryRepository {
     TimeEntry find(Long id);
     List<TimeEntry> list();
     TimeEntry update(Long id,TimeEntry timeEntryObj);
+
     void delete(Long id);
 }
